@@ -42,7 +42,7 @@ const ProductCard: FC<ProductCardProps> = ({ product }) => {
           ))}
           <span className="text-xs text-gray-400 ml-1">(4.9)</span>
         </div>
-        <h3 className="text-xl font-bold mb-2 group-hover:text-brand-primary transition-colors">
+        <h3 className="text-xl font-bold mb-2 group-hover:text-brand-primary transition-colors line-clamp-1">
           {product.name}
         </h3>
         <p className="text-gray-500 text-sm mb-4 line-clamp-2">

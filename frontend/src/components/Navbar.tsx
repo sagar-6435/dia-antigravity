@@ -37,7 +37,7 @@ const Navbar = () => {
           >
             D
           </motion.div>
-          <span className={`text-xl sm:text-2xl font-serif font-bold ${isScrolled ? 'text-brand-dark' : 'text-brand-dark'}`}>
+          <span className={`text-xl sm:text-2xl font-serif font-bold whitespace-nowrap ${isScrolled ? 'text-brand-dark' : 'text-brand-dark'}`}>
             DIA <span className="text-brand-primary">Pickles</span>
           </span>
         </div>

@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="min-h-screen bg-brand-cream selection:bg-brand-primary selection:text-white">
+    <div className="min-h-screen bg-brand-cream selection:bg-brand-primary selection:text-white overflow-x-hidden">
       <Navbar />
       <Hero />
       <BestSellers />
