@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans bg-brand-cream text-brand-dark;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-brand-primary text-white rounded-2xl font-semibold shadow-lg hover:bg-red-800 transition-all active:scale-95;
+  }
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-brand-primary text-brand-primary rounded-2xl font-semibold hover:bg-brand-primary hover:text-white transition-all active:scale-95;
+  }
+  .glass-nav {
+    @apply bg-white/70 backdrop-blur-md border-b border-gray-100;
+  }
+  .card-premium {
+    @apply bg-white rounded-3xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300;
+  }
+}
