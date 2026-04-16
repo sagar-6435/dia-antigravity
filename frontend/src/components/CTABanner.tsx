@@ -10,7 +10,7 @@ const CTABanner = () => {
             alt="Traditional Andhra Meal" 
             className="absolute inset-0 w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/90 to-transparent flex items-center p-12 md:p-24">
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-dark/90 to-transparent flex items-center p-8 md:p-24">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}

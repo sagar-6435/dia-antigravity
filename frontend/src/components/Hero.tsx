@@ -28,10 +28,10 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <span className="inline-block px-4 py-1.5 mb-6 bg-brand-primary/20 backdrop-blur-sm border border-brand-primary/30 text-white rounded-full text-sm font-semibold tracking-wide uppercase">
-              Est. 1995 | Authentic Andhra Taste
+              Est. 1995 | Andhra Taste
             </span>
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-[1.1]">
-              Authentic Homemade Pickles, <br />
+              Homemade Pickles, <br />
               <span className="text-brand-secondary">Crafted with Tradition</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl leading-relaxed">

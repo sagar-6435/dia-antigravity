@@ -34,7 +34,7 @@ const Reviews = () => {
             </div>
           </div>
 
-          <div className="lg:w-2/3 w-full relative h-[400px] flex items-center justify-center">
+          <div className="lg:w-2/3 w-full relative min-h-[450px] flex items-center justify-center py-10 lg:py-0">
             <AnimatePresence mode="wait">
               <motion.div
                 key={reviews[current].id}
@@ -42,7 +42,7 @@ const Reviews = () => {
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.5 }}
-                className="w-full max-w-2xl bg-white p-12 rounded-[2rem] shadow-xl border border-gray-50 relative"
+                className="w-full max-w-2xl bg-white p-8 md:p-12 rounded-[2rem] shadow-xl border border-gray-50 relative"
               >
                 <Quote size={80} className="absolute top-6 right-12 text-brand-primary/10" />
                 
