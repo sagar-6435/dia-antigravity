@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
+    <section className="relative min-h-[80vh] sm:min-h-[90vh] flex items-center pt-20 overflow-hidden">
       {/* Background Image with Zoom Zoom Animation */}
       <div className="absolute inset-0 z-0">
         <motion.div 
@@ -30,20 +30,20 @@ const Hero = () => {
             <span className="inline-block px-4 py-1.5 mb-6 bg-brand-primary/20 backdrop-blur-sm border border-brand-primary/30 text-white rounded-full text-sm font-semibold tracking-wide uppercase">
               Est. 1995 | Andhra Taste
             </span>
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-[1.1]">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white mb-6 leading-[1.1]">
               Homemade Pickles, <br />
               <span className="text-brand-secondary">Crafted with Tradition</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl leading-relaxed">
+            <p className="text-lg md:text-2xl text-gray-200 mb-8 max-w-2xl leading-relaxed">
               Farm-fresh ingredients | No preservatives | Made in small batches. Experience the soul of South Indian cuisine in every jar.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="btn-primary flex items-center justify-center gap-2 group">
+              <button className="btn-primary w-full sm:w-auto flex items-center justify-center gap-2 group">
                 Shop Now
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="btn-secondary !border-white !text-white hover:!bg-white hover:!text-brand-dark">
+              <button className="btn-secondary w-full sm:w-auto !border-white !text-white hover:!bg-white hover:!text-brand-dark flex items-center justify-center">
                 Explore Best Sellers
               </button>
             </div>
