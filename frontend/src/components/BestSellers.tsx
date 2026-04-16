@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const BestSellers = () => {
   return (
-    <section id="shop" className="py-24 bg-brand-cream">
+    <section id="shop" className="py-16 md:py-24 bg-brand-cream">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
           <motion.div
