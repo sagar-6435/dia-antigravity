@@ -1,4 +1,3 @@
-import React from 'react';
 import { steps } from '../data';
 import * as LucideIcons from 'lucide-react';
 import { motion } from 'framer-motion';

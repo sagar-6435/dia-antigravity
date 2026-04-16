@@ -1,4 +1,4 @@
-import React from 'react';
+import { FC } from 'react';
 import { motion } from 'framer-motion';
 import { ShoppingCart, Star } from 'lucide-react';
 
@@ -13,7 +13,7 @@ interface ProductCardProps {
   };
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard: FC<ProductCardProps> = ({ product }) => {
   return (
     <motion.div 
       whileHover={{ y: -10 }}

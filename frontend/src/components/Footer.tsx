@@ -1,4 +1,4 @@
-import { Camera, Share2, Send, Mail, Phone, MapPin } from 'lucide-react';
+import { Camera, Share2, Send, Phone, MapPin } from 'lucide-react';
 
 const Footer = () => {
   return (
